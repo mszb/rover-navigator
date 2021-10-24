@@ -1,7 +1,7 @@
 import re
 from typing import Tuple, Union
 
-from exceptions import CommandError
+from .exceptions import CommandError
 
 
 class RoverNavigation:

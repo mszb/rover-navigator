@@ -1,7 +1,7 @@
 import click
 
-from exceptions import CommandError
-from rover_navigation import FileCommandInterface, RoverNavigation
+from rover.exceptions import CommandError
+from rover.rover_navigation import FileCommandInterface, RoverNavigation
 
 
 def process_file(file):

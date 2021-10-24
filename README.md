@@ -30,3 +30,14 @@ To run interactive command prompt, run:
 Command: `pytest`
 
 With coverage: `coverage run -m pytest && coverage report -m`
+
+```
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+app.py                         57      1    98%   103
+rover/__init__.py               0      0   100%
+rover/exceptions.py             2      0   100%
+rover/rover_navigation.py      84      0   100%
+---------------------------------------------------------
+TOTAL                         143      1    99%
+```

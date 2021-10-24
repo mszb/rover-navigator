@@ -1,7 +1,7 @@
 import pytest
 
-from rover_navigation import RoverNavigation
-from exceptions import CommandError
+from .rover_navigation import RoverNavigation
+from .exceptions import CommandError
 
 
 def test_rover_position():
